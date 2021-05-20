@@ -1,0 +1,13 @@
+.background-image {
+    background:url("/assets/images/transparentbg.png");
+    width: 100%;
+    background-size:cover;
+    background-blend-mode: multiply;
+    display: block;
+    position: absolute;
+}
+
+.app__search {
+    margin-left: 45px;
+    width: calc(100% - 1085px);
+}

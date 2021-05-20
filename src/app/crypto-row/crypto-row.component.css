@@ -1,0 +1,15 @@
+.crypto-row{
+    color: aqua;
+    padding: 5px 0 0 45px;
+   
+}
+
+.crypto-row__symbols {
+    background-color: rgb(100, 96, 96);
+    border-radius: 5px;
+    padding: 0 10px 5px 10px;
+}
+
+.crypto-row__price{
+    color: white;
+}

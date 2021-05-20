@@ -1,0 +1,5 @@
+<div class="crypto-row" *ngIf="cryptoRow">
+    <span class="crypto-row__symbols">{{cryptoRow.FROMSYMBOL}}-{{cryptoRow.TOSYMBOL}}: 
+        <span class="crypto-row__price"> {{cryptoRow.PRICE | number}} </span>
+    </span>
+</div>
